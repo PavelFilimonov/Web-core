@@ -1,72 +1,28 @@
-# Webpack Static Site Starter Kit
+# first-project для Kata Academy (Web core)
 
-## Требования к проекту
-- [Node 14.18.3](https://nodejs.org/download/release/v14.18.3/)
-- [NVM/MacOC](https://tecadmin.net/install-nvm-macos-with-homebrew/)
-- [NVM/Windows](https://github.com/coreybutler/nvm-windows/releases) Если Windows то установка только от имени администратора
-- [Yarn](https://yarnpkg.com/)
+### Обзор
 
-## Использование
-##### Клонировать репозиторий
-```
-git clone https://github.com/alex-karo/webpack-static-template block7
-```
-##### В папке block7 перейти в папку проекта
-```
-cd block7
-```
-##### Удалить папку .git
-```
-rm -fr .git
-```
+- Интро
+- Технологии
+- Ссылка на сайт
 
-## Проверка версии ноды
-##### Должно вывести версию ноды 14.18.3
-```
-node -v
-```
+**Интро**
 
-## Два метода установки зависимостей
-##### Установка зависимостей через NPM
+Проект о сервисе CPS.
 
-```
-npm install
-```
-##### Установка зависимостей через Yarn
-```
-yarn
-```
+При создании проекта использовалась:
 
-## Два метода запуска приложения
-#### Для запуска веб-сервера с лайврелоадом через NPM
-```
-npm run start
-```
-#### Для создания билда через NPM
-```
-npm run build
-```
+**Технологии**
 
+- Figma
+- Аддаптивная верстка
+- Исключительно flex
+- Сервис для оптимизации картинок [оптимизировать картинки](https://tinypng.com/)
+- Скрипты для улучшения шрифтов
+- SCSS
+- JS
+- Слайдер Swiper (только для мобильного разрешения)
 
-#### Для запуска веб-сервера с лайврелоадом через Yarn
-```
-yarn start
-```
-#### Для создания билда через Yarn
-```
-yarn build
-```
+**Ссылка на сайт**
 
-## Два метода загрузки на Github Pages
-**Ваш репозиторий должен быть связан с github репозиторием, после этого выполняем**
-#### Загрузка на Github Pages через NPM
-```
-npm run deploy
-```
-#### Загрузка на Github Pages через Yarn
-```
-yarn deploy
-```
-
-Основано на [этой статье](https://hackernoon.com/lets-start-with-webpack-4-91a0f1dba02e)
-
+[Ссылка на сайт (Web core)](https://pavelfilimonov.github.io/Web-core/index.html)
