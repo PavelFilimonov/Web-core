@@ -1,4 +1,4 @@
-# first-project для Kata Academy (Web core)
+# Web core для Kata Academy
 
 ### Обзор
 
