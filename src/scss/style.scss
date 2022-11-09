@@ -1,0 +1,50 @@
+@import '~normalize.css';
+@import '../../node_modules/swiper/swiper-bundle.min.css';
+@import './fonts.scss';
+
+@import './variables.scss';
+@import './mixin.scss';
+
+@import './blocks/page/page.scss';
+
+@import './blocks/side-bar/side-bar.scss';
+@import './blocks/mobile-header/mobile-header.scss';
+@import './blocks/mobile-nav/mobile-nav.scss';
+@import './blocks/mobile-menu/mobile-menu.scss';
+@import './blocks/side-bar-footer/side-bar-footer.scss';
+@import './blocks/aditional/aditional.scss';
+@import './blocks/contact/contact.scss';
+@import './blocks/lang/lang.scss';
+@import './blocks/lang/lang.scss';
+
+@import './blocks/main/main.scss';
+@import './blocks/header/header.scss';
+@import './blocks/upper-menu/upper-menu.scss';
+@import './blocks/button/button.scss';
+@import './blocks/logo/logo.scss';
+
+@import './blocks/content/content.scss';
+@import './blocks/title/title.scss';
+@import './blocks/main-nav/main-nav.scss';
+@import './blocks/scroll-menu/scroll-menu.scss';
+
+@import './blocks/section/section.scss';
+@import './blocks/about-us/about-us.scss';
+
+@import './blocks/subtitle/subtitle.scss';
+@import './blocks/menu/menu.scss';
+@import './blocks/brends/brends.scss';
+@import './blocks/technique/technique.scss';
+@import './blocks/prices/prices.scss';
+@import './blocks/servise/servise.scss';
+@import './blocks/view-btn/view-btn.scss';
+@import './blocks/slider-swaper/slider-swaper.scss';
+@import './blocks/offer/offer.scss';
+@import './blocks/footer/footer.scss';
+
+@import './blocks/form-fb/form-fb.scss';
+@import './blocks/feedback/feedback.scss';
+@import './blocks/callRequest/callRequest.scss';
+
+@import './blocks/hidden/hidden.scss';
+@import './blocks/visible/visible.scss';

@@ -1,0 +1,33 @@
+.view-btn {
+  display: flex;
+  position: relative;
+  width: fit-content;
+  padding: 0 0 0 33px;
+  height: 24px;
+  border: none;
+  align-items: center;
+
+  &::before {
+    display: flex;
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url('/img/show-rows.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.view-btn-rotate::before {
+  animation: rotate 1s linear forwards;
+  animation-duration: 0.5s;
+}
+
+@keyframes rotate {
+  0% {}
+  100% {
+    transform: rotate(180deg);
+  }
+}

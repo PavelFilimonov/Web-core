@@ -1,0 +1,45 @@
+[hidden] {
+  display: none;
+}
+
+.hidden {
+  display: none;
+
+  &[hidden] {
+    display: none;
+  }
+
+  &_mobile {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &_laptop {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+
+    @media (min-width: 1440px) {
+      display: flex;
+    }
+  }
+
+  &_desktop {
+    @media (min-width: 1440px) {
+      display: none;
+    }
+  }
+
+  &_laptop_desktop {
+    display: flex;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+}

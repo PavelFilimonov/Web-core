@@ -1,0 +1,22 @@
+.page {
+  @include text-regular;
+  // font-family: $font-regular;
+  // font-size: 16px;
+  // line-height: 24px;
+  // letter-spacing: -0.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  background-color: $bg-color-header;
+  // color: $text-color;
+
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1440px;
+    align-items: flex-start;
+  }
+}

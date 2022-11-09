@@ -1,0 +1,89 @@
+.button {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: $bg-color-btn;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: $bg-color-btn-hover;
+  }
+
+  &_burger {
+    background-image: url('/img/button_burger.svg');
+  }
+
+  &_call {
+    background-image: url('/img/button_call.svg');
+  }
+
+  &_chat {
+    background-image: url('/img/button_chat.svg');
+  }
+
+  &_profile {
+    background-image: url('/img/button_profile.svg');
+  }
+
+  &_close {
+    background-image: url('/img/button_close.svg');
+
+    @media (min-width: 1440px) {
+      display: none;
+    }
+  }
+
+  &_search {
+    margin-left: auto;
+    background-image: url('/img/button_search.svg');
+  }
+
+  &_repair {
+    background-image: url('/img/button_repair.svg');
+    
+    @media (min-width: 1440px) {
+      position: relative;
+      display: flex;
+
+      &::before {
+        position: absolute;
+        left: -133px;
+        display: flex;
+        align-items: center;
+        content: 'Оставить заявку';
+        height: 40px;
+        font-family: $font-medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+      }
+    }
+  }
+
+  &_checkstatus {
+    background-image: url('/img/button_checkstatus.svg');
+    
+    @media (min-width: 1440px) {
+      position: relative;
+      display: flex;
+
+      &::before {
+        position: absolute;
+        left: -128px;
+        display: flex;
+        align-items: center;
+        content: 'Статус ремонта';
+        height: 40px;
+        font-family: $font-medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+      }
+    }
+  }
+}

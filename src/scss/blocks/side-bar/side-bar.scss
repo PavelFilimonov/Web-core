@@ -1,0 +1,65 @@
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 100vh;
+  background-color: $bg-color-header;
+  overflow-y: auto;
+
+  @media (min-width: 1440px) {
+    position: static;
+    height: 921px;
+    opacity: 1;
+  }
+
+  &_open {
+    z-index: 101;
+
+    @media (min-width: 1440px) {
+      position: relative;
+    }
+  }
+
+  &_close {
+    z-index: auto;
+    display: none;
+
+    @media (min-width: 1440px) {
+      display: flex;
+    }
+  }
+
+  &__logo {
+    margin: 0 0 0 16.73px;
+
+    @media (min-width: 1440px) {
+      margin: 0;
+    }
+  }
+
+  &__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .96);
+    pointer-events: none;
+    transition: all 1s;
+
+    @media (min-width: 1440px) {
+      display: none;
+    }
+
+    &_active {
+      opacity: 1;
+      pointer-events: all;
+      transition: all 1s;
+    }
+  }
+}

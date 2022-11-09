@@ -1,0 +1,66 @@
+.offer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+  &__para {
+    display: flex;
+    margin: 16px 16px 0;
+    font-family: $font-regular;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    @media (min-width: 768px) {
+      width: 421px;
+      margin: 24px 0 0 24px;
+    }
+
+    @media (min-width: 1440px) {
+      margin: 32px 0 0 32px;
+    }
+  }
+
+  &__btn {
+    position: relative;
+    display: flex;
+    width: 192px;
+    height: 54.98px;
+    margin: 16px 0 0 16px;
+    padding: 0;
+    border: none;
+    background-color: inherit;
+    @include text-medium;
+    text-align: start;
+    cursor: pointer;
+
+    @media (min-width: 768px) {
+      width: 316px;
+      height: 24px;
+      margin: 16px 0 0 24px;
+    }
+
+    @media (min-width: 1440px) {
+      margin: 16px 0 0 32px;
+    }
+
+    &::after {
+      position: absolute;
+      left: 103px;
+      bottom: 7px;
+      display: flex;
+      width: 24px;
+      height: 23px;
+      content: '';
+      background-image: url('/img/dropdown.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+
+      @media (min-width: 768px) {
+        left: 292px;
+        bottom: 0;
+      }
+    }
+  }
+}

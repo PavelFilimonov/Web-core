@@ -1,0 +1,14 @@
+.subtitle {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  font-family: $font-regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-weight: normal;
+  color: $text-color-lighter;
+  text-transform: uppercase;
+  border-top: 1px solid $section-devider-color;
+  box-sizing: border-box;
+}

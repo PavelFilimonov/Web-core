@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: $bg-color-main;
+
+  @media (min-width: 1440px) {
+    width: 1120px;
+  }
+}

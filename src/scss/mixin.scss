@@ -1,0 +1,19 @@
+@mixin text-regular {
+  font: {
+  family: $font-regular;
+  size: 14px;
+  }
+  line-height: 18px;
+  color: $text-color;
+  letter-spacing: 0.2px
+}
+
+@mixin text-medium {
+  font: {
+  family: $font-medium;
+  size: 16px;
+  }
+  line-height: 24px;
+  color: $text-color;
+  letter-spacing: -0.2px
+}

@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background-color: $bg-color-main;
+
+  @media (min-width: 1440px) {
+    order: -1;
+  }
+
+  &__title {
+    margin: 24px 0 0;
+
+    @media (min-width: 1440px) {
+      margin: 42px 0 0 1px;
+    }
+  }
+}

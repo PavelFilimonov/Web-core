@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid $section-devider-color;
+  box-sizing: border-box;
+  background-color: $bg-color-header;
+
+  @media (min-width: 1440px) {
+    width: 30%;
+    justify-content: end;
+    align-self: flex-end;
+    background-color: $bg-color-main;
+    border: none;
+    position: absolute;
+    z-index: 1;
+  }
+}

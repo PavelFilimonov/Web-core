@@ -1,0 +1,82 @@
+.servise {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    width: auto;
+  }
+
+  &__name {
+    display: flex;
+    font-family: $font-medium;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: $text-color-lighter;
+    opacity: 0.72;
+  }
+
+  &__name-value {
+    display: flex;
+    margin: 4px 0 0;
+    @include text-regular;
+
+    @media (min-width: 768px) {
+      width: 348px;
+      margin: 0 24px 0 0;
+    }
+
+    @media (min-width: 1440px) {
+      width: 348px;
+      margin: 0 122px 0 0;
+    }
+  }
+
+  &__price {
+    display: flex;
+    font-family: $font-medium;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: $text-color-lighter;
+    opacity: 0.72;
+  }
+
+  &__price-value {
+    display: flex;
+    margin: 4px 0 0;
+    @include text-regular;
+
+    @media (min-width: 768px) {
+      width: 74px;
+      margin: 0 22px 0 0;
+    }
+
+    @media (min-width: 1440px) {
+      width: 74px;
+      margin: 0 153px 0 0;
+    }
+  }
+
+  &__deadline {
+    display: flex;
+    font-family: $font-medium;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: $text-color-lighter;
+    opacity: 0.72;
+  }
+
+  &__deadline-value {
+    display: flex;
+    margin: 4px 0 0;
+    @include text-regular;
+
+    @media (min-width: 768px) {
+      margin: 0;
+    }
+  }
+}

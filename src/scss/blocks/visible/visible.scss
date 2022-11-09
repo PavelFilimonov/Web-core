@@ -1,0 +1,11 @@
+.visible {
+  &_tablet {
+    @media (min-width: 768px) {
+      display: flex;
+    }
+
+    @media (min-width: 1440px) {
+      display: none;
+    }
+  }
+}

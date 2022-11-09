@@ -1,0 +1,45 @@
+.scroll-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 24px 0 0 16px;
+  list-style: none;
+  overflow-y: hidden;
+
+  @media (min-width: 768px) {
+    padding: 32px 0 0 24px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 8px 22px 0 34px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    font-family: $font-medium;
+    color: $text-color-lighter;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px 14.54px;
+    border: 2px solid $bg-color-main;
+    box-sizing: border-box;
+
+    &:hover {
+      background-color: $bg-color-header;
+      border: 2px solid $border-color-mint;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    @media (min-width: 1440px) {
+      padding: 6.63px 17.64px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+  @media (min-width: 1440px) {
+    // max-width: 1096px;
+    width: 100%;
+    height: fit-content;
+  }
+}
