@@ -25,4 +25,4 @@
 
 **Ссылка на сайт**
 
-[Ссылка на сайт (Web core)](https://pavelfilimonov.github.io/Web-core/index.html)
+[Ссылка на сайт (Web core)](https://pavelfilimonov.github.io/Web-core/)
